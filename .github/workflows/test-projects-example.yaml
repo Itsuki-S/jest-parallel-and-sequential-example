@@ -1,7 +1,7 @@
-name: test-config-example
+name: test-projects-example
 on: [workflow_dispatch]
 jobs:
-  test-config:
+  test-projects:
     runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v2
@@ -9,4 +9,4 @@ jobs:
       with:
         node-version: '15'
     - run: npm ci
-    - run: npm run test:config
+    - run: npm run test:projects
