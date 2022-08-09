@@ -9,4 +9,4 @@ jobs:
       with:
         node-version: '15'
     - run: npm ci
-    - run: npm run test-all
+    - run: npm run test:all
