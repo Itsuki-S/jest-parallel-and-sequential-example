@@ -1,4 +1,5 @@
 name: test-all-example
+on: [push]
 jobs:
   test-all:
     runs-on: ubuntu-latest
