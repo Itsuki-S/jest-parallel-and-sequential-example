@@ -5,7 +5,7 @@
     "ts"
   ],
   "rootDir": "../src",
-  "testRegex": ".*\\.sequential.*\\.spec\\.ts$",
+  "testRegex": ".*\\.sequential\\.spec\\.ts$",
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
   },
